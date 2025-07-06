@@ -1,0 +1,22 @@
+.parallax-section {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+    background-image: url('../assets/par.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.parallax-layer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.parallax-content {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}

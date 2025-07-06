@@ -1,0 +1,57 @@
+.addevent-main {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    background-color: #f7f7f7;  
+  }  
+    
+  .addevent {  
+    background-color: #fff;  
+    padding: 20px;  
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+    width: 500px;  
+    max-width: 90%;  
+  }  
+    
+  .addevent input[type="text"], .addevent input[type="date"], .addevent input[type="time"] {  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 20px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+  }  
+    
+  .addevent input[type="file"] {  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 20px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    background-color: #f7f7f7;  
+  }  
+    
+  .addevent button {  
+    background-color: #1A3C6C;  
+    color: #fff;  
+    padding: 10px 20px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    margin-bottom: 20px;  
+  }  
+    
+  .addevent button:hover {  
+    background-color: black;  
+  }  
+    
+  .addevent button.cancel {  
+    background-color: #ccc;  
+    color: #333;  
+  }  
+    
+  .addevent button.cancel:hover {  
+    background-color: #aaa;  
+  }
+  

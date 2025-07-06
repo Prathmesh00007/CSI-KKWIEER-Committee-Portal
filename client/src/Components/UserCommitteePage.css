@@ -1,0 +1,170 @@
+body {
+  overflow-x: hidden;
+}
+
+.card {
+  border-radius: 20px; /* Apply your desired border radius */
+  overflow: hidden; /* Ensures no overflow from the card */
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto; /* Ensures images have their natural height */
+  object-fit: cover; /* Maintain aspect ratio without stretching */
+  transition: transform 0.5s ease; /* Smooth transition for scaling */
+}
+
+.carousel-inner {
+  width: 85vw; /* Maintain as needed */
+  overflow: hidden; /* Prevents overflow during transitions */
+}
+
+.carousel-item {
+  display: flex; /* Use flex to align items */
+  justify-content: center; /* Center items in the carousel */
+  align-items: center; /* Center items vertically */
+  transition: opacity 0.5s ease; /* Smooth transition for opacity */
+}
+
+.carousel-item img {
+  filter: none !important;
+  opacity: 1 !important;
+  transition: transform 0.5s ease; /* Ensure smooth scaling */
+}
+
+/* Add transform on active item */
+.carousel-item.active img {
+  transform: scale(1); /* Reset scaling for active item */
+}
+
+/* Optional: Scale down inactive items slightly */
+.carousel-item:not(.active) img {
+  transform: scale(1); /* Scale down inactive items slightly */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black !important; /* Ensure visibility */
+  border-radius: 50% !important; /* Circular icons */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; /* Adjust for better visibility */
+  z-index: 1; /* Ensure controls are above other elements */
+}
+
+/* Additional styling to maintain structure */
+.committee-con {
+  display: flex;
+  justify-content: center; /* Centering carousel */
+  width: 100vw; /* Full width */
+}
+
+.sexy-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 99vw;
+  flex-direction: column;
+}
+
+.committee-heading1 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin: 2rem 0; /* Adjust margins as needed */
+  font-family: 'Poppins', sans-serif;
+  text-align: center; /* Center heading */
+}
+
+#committeeCarousel{
+  width: 90%;
+}
+
+/* General Mobile Responsiveness */
+@media (max-width: 700px) {
+  /* Adjust body overflow for smaller screens */
+  body {
+    overflow-x: visible; /* Allow horizontal scrolling for small screens */
+  }
+
+  /* Adjust card style for mobile */
+  .card {
+    border-radius: 10px; /* Reduce border radius */
+  }
+
+  /* Adjust carousel settings for mobile */
+  .carousel-inner {
+    width: 100vw; /* Make carousel width 100% of viewport width */
+  }
+
+  .carousel-item {
+    display: block; /* Stack carousel items vertically */
+  }
+
+  /* Adjust images within carousel for mobile */
+  .carousel-item img {
+    max-width: 100%; /* Ensure images fit within the container */
+    height: auto; /* Maintain natural aspect ratio */
+  }
+
+  /* Adjust committee container layout */
+  .committee-con {
+    width: 100vw; /* Use full viewport width */
+    padding: 0 10px; /* Add some padding to prevent overflow */
+  }
+
+  .sexy-container {
+    width: 100%; /* Use full width */
+    padding: 0 10px; /* Add some padding */
+  }
+
+  .committee-heading1 {
+    font-size: 2rem; /* Reduce font size for mobile */
+    margin: 1rem 0; /* Adjust margins */
+  }
+
+  /* Adjust carousel control visibility for mobile */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 8%; /* Increase control width for better touch targets */
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black !important; /* Ensure controls are visible */
+    border-radius: 50% !important; /* Keep circular icons */
+  }
+}
+
+/* Adjustments for Extra Small Screens */
+@media (max-width: 480px) {
+  /* Adjust font size and layout for very small screens */
+  .committee-heading1 {
+    font-size: 1.5rem; /* Reduce font size further for small screens */
+    margin: 1rem 0; /* Tighten margins */
+  }
+
+  /* Make the card and carousel even more compact */
+  .card {
+    border-radius: 5px; /* Further reduce card border radius */
+  }
+
+  .carousel-inner {
+    width: 100vw; /* Ensure carousel takes full width */
+  }
+
+  .carousel-item img {
+    object-fit: contain; /* Ensure images fit without being cropped */
+  }
+
+  .sexy-container {
+    width: 100%; /* Use full screen width */
+  }
+
+  /* Adjust carousel controls for touch devices */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%; /* Increase the width for easier interaction */
+  }
+}

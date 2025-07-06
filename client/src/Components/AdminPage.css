@@ -1,0 +1,85 @@
+.admin-header {
+    display: flex;
+    height: 8.3vh;
+    font-family: 'Poppins';
+    font-size:xx-large;
+    align-items: center;
+    color: white;
+    margin-left: 2%
+}
+
+.admin-scrollbar {
+    display: flex;
+    height: 8.3vh;
+    background-color: #1A3C6C;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size:large;
+    color: #D5EAFF;
+}
+
+.admin-content {
+   
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 86.4vh;
+}
+
+
+.admin-main-panel {
+    display: flex;
+    height: calc(100vh - 16.6vh); /* Subtract header + scrollbar height */
+    flex-direction: column;
+
+
+    flex: 1;
+   
+    padding: 2rem;
+    overflow-y: auto;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Side panel styling */
+.admin-side-panel {
+    width: 13.33vw;
+
+    display: flex;
+    flex-direction: column;
+    
+    padding: 2rem 1rem;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.logout {
+    display: flex;
+    text-align: center;
+    margin-bottom: 2vh;
+    background-color: #D5EAFF;
+}
+
+.admin-page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    scale: 0.95;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../assets/finalbg.png');
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(18.350000381469727px);
+    border-radius: 25px;
+
+}
+
+
+.qwer{
+    opacity: 1 !important;
+    font-weight: 900;
+}

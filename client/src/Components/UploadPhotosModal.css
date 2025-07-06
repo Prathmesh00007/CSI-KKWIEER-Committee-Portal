@@ -1,0 +1,65 @@
+/* Modal Styles */
+.modal {
+  
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe; /* White background */
+    margin: auto; /* Center the modal */
+    padding: 20px; /* Add some padding */
+    border: 1px solid #888; /* Gray border */
+    border-radius: 5px; /* Rounded corners */
+    width: 80%; /* Width of the modal */
+    max-width: 600px; /* Max width */
+}
+
+/* Close Button */
+.close {
+    color: #aaa; /* Light gray */
+    float: right; /* Position to the right */
+    font-size: 28px; /* Font size */
+    font-weight: bold; /* Bold font */
+}
+
+.close:hover,
+.close:focus {
+    color: black; /* Change color on hover */
+    text-decoration: none; /* No underline */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Input Styles */
+input[type="file"] {
+    margin: 10px 0; /* Margin around file input */
+}
+
+/* Filter Buttons */
+.filter-buttons {
+    display: flex; /* Use flexbox */
+    justify-content: space-around; /* Space out buttons */
+    margin-bottom: 10px; /* Space below */
+}
+
+.filter-buttons button {
+    padding: 5px 10px; /* Padding around buttons */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.filter-buttons button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}

@@ -1,0 +1,1047 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+body {
+    
+
+}
+
+.home-container {
+ 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../assets/finalbg.png');
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+  
+}
+
+.content,.committee {
+width: 99vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+#event12info{
+    width: 99vw;
+
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#eventinfo{
+    color: #000;
+-webkit-text-stroke-width: 0.8722676634788513;
+-webkit-text-stroke-color: #000;
+font-family: Poppins;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 54px */
+    text-align: left;
+    margin-left: 5cqh;
+    margin-top: 5cqh;
+}
+.content {   
+    position: relative;
+    height: 100vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10.8vh;
+    gap: 5vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    margin: 0;
+    
+    z-index: 1; 
+   
+}
+
+.committee{
+    margin-top: 10.8vh;
+    background: rgba(255, 255, 255, 0.30);
+backdrop-filter: blur(18.350000381469727px);
+height: 89.2vh;
+}
+
+/* Stacking effect for sections */
+
+/* Individual section styling remains unchanged */
+
+.box1log {
+    display: flex;
+    flex-direction: column;
+    background-color: #92BDDA;
+    width: 81vw;
+    height: 100%;
+    border-radius: 30px;
+    border: 3px solid #FFF;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(11.5px);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+
+.right-homebox {
+    display: flex;
+    
+    background-color: #92BDDA;
+    width: 81vw;
+    height: 100%;
+    border-radius: 30px;
+    border: 3px solid #FFF;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(11.5px);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    animation: slideInLeft 1s ease-in-out forwards;
+    text-align: center;
+    font-size: 16px;
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-150%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.btn1log {
+    background-color: white;
+    border: 0.125cqw solid black;
+    border-radius: 1.4375cqw;
+    cursor: pointer;
+    width: 2.875cqw;
+    height: 2.875cqw;
+  
+    margin-top: 1cqw;
+}
+
+.home-carousel-inner{
+    align-items: center;
+
+}
+
+.box1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.2cqh;
+    padding-left: 1cqw;
+}
+
+.group11, .group12 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2cqw;
+}
+
+/* Additional styling for the second and third sections can follow a similar pattern */
+
+/* Converted #box2log to .box2log */
+.box2log {
+    display: flex;
+    flex-direction: column;
+   
+    width: 45vw;
+  
+
+    text-align: left;
+    font-size: 16px; 
+   
+
+    flex-wrap: wrap;
+    flex: 1 1 40%;
+  
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(150%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Converted #box3log to .box3log */
+.box3log {
+    display: flex;
+    flex-direction: column;
+
+    width: 45vw;
+    
+
+    text-align: left;
+    font-size: 16px; 
+    
+
+    flex-wrap: wrap;
+    flex: 1 1 40%;
+ 
+}
+
+@keyframes slideInBottom {
+    0% {
+        transform: translateY(150%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Converted #h1log to .h1log */
+#h1log {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 3.3cqw;
+    line-height: 120%;
+    padding-left:1.1cqw ;
+    padding-top: 1cqh;
+    text-align: center;
+    margin: 0;
+    letter-spacing: -2%;
+}
+#h1log1 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 3.0cqw;
+    line-height: 120%;
+    padding-left:1.1cqw ;
+    padding-top: 1cqh;
+    text-align: center;
+    margin: 0;
+}
+/* Converted #p1log to .p1log */
+.p1log {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1.375cqw;
+    text-align: center;
+    line-height: 212%;
+    padding-left: 1.1cqw;
+    padding-top: 2.0cqh;
+    
+    letter-spacing: -1%;
+}
+
+#btnlog img {
+    align-content: end;
+}
+
+.mockk2{
+    display: flex;
+    align-items: center;
+}
+
+/* Converted #btn1log to .btn1log */
+.btn1log {
+    background-color: white;
+    border: 0.125cqw solid black;
+    border-radius: 1.4375cqw;
+    cursor: pointer;
+    width: 2.875cqw;
+    height: 2.875cqw;
+    margin-left: 58cqw;
+    margin-top: 0.5cqw;
+}
+
+/* .container and .group remain unchanged as these were already using class names */
+.box1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Align both groups horizontally */
+    gap: 0.2cqh;
+    padding-left: 1cqw;
+     /* Space between the two groups */
+}
+
+.group11 {
+    display: flex;
+    flex-direction: row; /* Stack the text vertically */
+    align-items: center; /* Center-align the items */
+    gap: 2cqw;
+    
+}
+
+.group12 {
+    display: flex;
+    flex-direction: row; /* Stack the text vertically */
+    align-items: center; /* Center-align the items */
+    gap: 3.3cqw;
+ 
+}
+
+
+/* Converted #con to .con */
+.con {
+    font-family: Poppins;
+    font-size: 1.36cqw;
+    font-weight: 500;
+    
+   
+    letter-spacing: -0.05cqw;
+}
+
+/* Converted #cha to .cha */
+.cha {
+    font-family: Poppins;
+    font-size: 1.36cqw;
+    font-weight: 500;
+   
+   
+    letter-spacing: -0.05cqw;
+}
+
+/* Converted #contri to .contri */
+.contri {
+    font-family: Poppins;
+    font-size: 2.84cqw;
+    font-weight: bold;
+    
+
+    letter-spacing: -0.15cqw;
+}
+
+/* Converted #chap to .chap */
+.chap {
+    font-family: Poppins;
+    font-size: 2.84cqw;
+    font-weight: bold;
+    
+   
+    letter-spacing: -0.15cqw;
+}
+
+/* Converted #h2log to .h2log */
+.h2log {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 3.0cqw;
+    line-height: 120%;
+    padding-left:1.1cqw ;
+    padding-top: 1cqh;
+    text-align: left;
+    margin: 0;
+}
+
+/* Converted #p2log to .p2log */
+.p2log {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1.375cqw;
+    text-align: left;
+    line-height: 180%;
+    padding-left: 1.1cqw;
+    padding-top: 4.1cqh;
+    text-decoration: underline;
+}
+
+/* Converted #btn2log to .btn2log */
+.btn2log {
+    background-color: white;
+    border: 0.125cqw solid black;
+    border-radius: 1.4375cqw;
+    cursor: pointer;
+    width: 2.875cqw;
+    height: 2.875cqw;
+    margin-left: 1cqw;
+    margin-top: 1cqw;
+}
+
+.h3log {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 3.0cqw;
+    line-height: 120%;
+    padding-left:1.1cqw ;
+    padding-top: 1cqh;
+    text-align: left;
+    margin: 0;
+}
+
+/* Converted #p2log to .p2log */
+.p3log {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1.375cqw;
+    text-align: left;
+    line-height: 180%;
+    padding-left: 1.1cqw;
+    padding-top: 4.1cqh;
+    text-decoration: underline;
+}
+
+.btn2log:hover {
+    background-color: rgb(233, 233, 233);
+    transition: 0.3s;
+}
+
+.btn1log:hover {
+    background-color: rgb(233, 233, 233);
+    transition: 0.3s;
+}
+
+.loginlog {
+    margin-left: 5rem;
+}
+
+.img1log {
+    margin-left: 0.5rem;
+}
+
+/* Converted #box1log:hover to .box1log:hover */
+.box1log:hover {
+    scale: 1.01;
+    transition: 0.3s;
+    box-shadow: 0rem 0.25rem 0.55rem rgba(0, 0, 0, 0.748);
+    z-index: 0.1;
+}
+
+/* Converted #box2log:hover to .box2log:hover */
+.box2log:hover {
+    scale: 1.01;
+    transition: 0.3s;
+    box-shadow: 0rem 0.25rem 0.55rem rgba(0, 0, 0, 0.3);
+    z-index: 0.1;
+}
+
+/* Converted #box3log:hover to .box3log:hover */
+.box3log:hover {
+    scale: 1.01;
+    transition: 0.3s;
+    box-shadow: 0rem 0.25rem 0.55rem rgba(0, 0, 0, 0.3);
+    z-index: 0.1;
+}
+
+
+
+.statlog {
+    margin-top: 1.4rem;
+}
+
+.committee{
+    z-index: 5; 
+}
+
+.info-section{
+ 
+    margin-right: 2.5%;
+    flex: 35%;
+    font-family: poppins;
+    border-radius: 25px;
+    border-radius: 25px;
+    border: 1px solid #039;
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(11.5px);
+}
+
+.mockk{
+    display: flex;
+    width: 100%;
+    flex: 1;
+    
+}
+
+#infoeve{
+    font-size: 1.6rem;
+    text-align: left;
+    line-height: 200%;
+    margin-top: 7cqh;
+    margin-left: 5%;
+    font-weight: 500;
+}
+
+#carouselExampleAutoplayinginfo{
+  
+    padding-top: 1.8rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    object-fit: fill;
+}
+
+#infogallery{
+    width: 55cqw;
+    flex: 55%;
+    margin-left: 2.5%;
+    border-radius: 25px;
+border: 1px solid #039;
+background: rgba(255, 255, 255, 0.30);
+backdrop-filter: blur(11.5px);
+}
+
+.Evegallerywrapper{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+    gap: 5%;
+}
+
+.carousel-innerinfo{
+    mix-blend-mode: normal;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* General mobile styles */
+@media (max-width: 700px) {
+    body {
+      font-size: 14px; /* Adjust the base font size for smaller screens */
+    }
+  
+    .home-container {
+      min-width: 100vw;
+      min-height: 100vh;
+      background-size: cover;
+      background-position: center;
+       /* Add some padding for mobile */
+    }
+  
+    .content, .committee {
+      width: 100vw;
+      height: auto;
+      flex-direction: column; /* Stack elements vertically */
+    
+    }
+  
+    #event12info {
+      flex-direction: column; /* Stack items */
+     
+    }
+  
+    #eventinfo {
+      font-size: 24px; /* Reduce font size for smaller screens */
+      text-align: center;
+      margin: 10px 0;
+    }
+  
+    .box1log {
+        display: flex;
+        flex-direction: column;
+        background-color: #92BDDA;
+        width: 81vw;
+        height: 100%;
+        border-radius: 30px;
+        border: 3px solid #FFF;
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(11.5px);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 10%;
+    }
+    
+    .right-homebox {
+        display: flex;
+        
+        background-color: #92BDDA;
+        width: 81vw;
+        height: 100%;
+        border-radius: 30px;
+        border: 3px solid #FFF;
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(11.5px);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        animation: slideInLeft 1s ease-in-out forwards;
+        text-align: center;
+        font-size: 16px;
+    }
+  
+    .btn1log, .btn2log {
+      width: 40px;
+      height: 40px;
+      font-size: 12px;
+    }
+  
+ 
+    .box1-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Align both groups horizontally */
+        gap: 0.2cqh;
+        padding-left: 1cqw;
+         /* Space between the two groups */
+    }
+    
+    .group11 {
+        display: flex;
+        flex-direction: row; /* Stack the text vertically */
+        align-items: center; /* Center-align the items */
+        gap: 2cqw;
+        
+    }
+    
+    .group12 {
+        display: flex;
+        flex-direction: row; /* Stack the text vertically */
+        align-items: center; /* Center-align the items */
+        gap: 3.3cqw;
+     
+    }
+    
+    
+    /* Converted #con to .con */
+    .con {
+        font-family: Poppins;
+        font-size: 1.36cqw;
+        font-weight: 500;
+        
+       
+        letter-spacing: -0.05cqw;
+    }
+    
+    /* Converted #cha to .cha */
+    .cha {
+        font-family: Poppins;
+        font-size: 1.36cqw;
+        font-weight: 500;
+       
+       
+        letter-spacing: -0.05cqw;
+    }
+    
+    /* Converted #contri to .contri */
+    .contri {
+        font-family: Poppins;
+        font-size: 2.84cqw;
+        font-weight: bold;
+        
+    
+        letter-spacing: -0.15cqw;
+    }
+    
+    /* Converted #chap to .chap */
+    .chap {
+        font-family: Poppins;
+        font-size: 2.84cqw;
+        font-weight: bold;
+        
+       
+        letter-spacing: -0.15cqw;
+    }
+  
+    .h1log, .h2log, .h3log {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .p1log, .p2log, .p3log {
+      font-size: 14px;
+      padding: 10px;
+      line-height: 1.5;
+    }
+  }
+  
+  /* Extra small devices (phones under 576px width) */
+  @media (max-width: 576px) {
+    body {
+      font-size: 14px; /* Adjust the base font size for smaller screens */
+    }
+  
+    .home-container {
+      min-width: 100vw;
+      min-height: 100vh;
+      background-size: cover;
+      background-position: center;
+       /* Add some padding for mobile */
+    }
+  
+    .content, .committee {
+      width: 100vw;
+      height: auto;
+      flex-direction: column; /* Stack elements vertically */
+    
+    }
+  
+    #event12info {
+      flex-direction: column; /* Stack items */
+     
+    }
+  
+    #eventinfo {
+      font-size: 24px; /* Reduce font size for smaller screens */
+      text-align: center;
+      margin: 10px 0;
+    }
+  
+    .box1log {
+        display: flex;
+        flex-direction: column;
+        background-color: #92BDDA;
+        width: 81vw;
+        height: 100%;
+        border-radius: 30px;
+        border: 3px solid #FFF;
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(11.5px);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 10%;
+    }
+    
+    .right-homebox {
+        display: flex;
+        
+        background-color: #92BDDA;
+        width: 81vw;
+        height: 100%;
+        border-radius: 30px;
+        border: 3px solid #FFF;
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(11.5px);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        animation: slideInLeft 1s ease-in-out forwards;
+        text-align: center;
+        font-size: 16px;
+    }
+  
+    .btn1log, .btn2log {
+      width: 40px;
+      height: 40px;
+      font-size: 12px;
+    }
+  
+ 
+    .box1-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Align both groups horizontally */
+        gap: 0.2cqh;
+        padding-left: 1cqw;
+         /* Space between the two groups */
+    }
+    
+    .group11 {
+        display: flex;
+        flex-direction: row; /* Stack the text vertically */
+        align-items: center; /* Center-align the items */
+        gap: 2cqw;
+        
+    }
+    
+    .group12 {
+        display: flex;
+        flex-direction: row; /* Stack the text vertically */
+        align-items: center; /* Center-align the items */
+        gap: 3.3cqw;
+     
+    }
+    
+    
+    /* Converted #con to .con */
+    .con {
+        font-family: Poppins;
+        font-size: 1.36cqw;
+        font-weight: 500;
+        
+       
+        letter-spacing: -0.05cqw;
+    }
+    
+    /* Converted #cha to .cha */
+    .cha {
+        font-family: Poppins;
+        font-size: 1.36cqw;
+        font-weight: 500;
+       
+       
+        letter-spacing: -0.05cqw;
+    }
+    
+    /* Converted #contri to .contri */
+    .contri {
+        font-family: Poppins;
+        font-size: 2.84cqw;
+        font-weight: bold;
+        
+    
+        letter-spacing: -0.15cqw;
+    }
+    
+    /* Converted #chap to .chap */
+    .chap {
+        font-family: Poppins;
+        font-size: 2.84cqw;
+        font-weight: bold;
+        
+       
+        letter-spacing: -0.15cqw;
+    }
+  
+    .h1log, .h2log, .h3log {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .p1log, .p2log, .p3log {
+      font-size: 14px;
+      padding: 10px;
+      line-height: 1.5;
+    }
+  }
+  /* Fine-tune elements for ultra-small screens (below 400px) */
+  @media (max-width: 400px) {
+    body {
+       /* Adjust the base font size for smaller screens */
+    }
+  
+    .home-container {
+      min-width: 100vw;
+
+      background-size: cover;
+      background-position: center;
+       /* Add some padding for mobile */
+    }
+  
+    .content, .committee {
+      width: 100vw;
+      padding: 5vw;
+      height: auto;
+      flex-direction: column; /* Stack elements vertically */
+    
+    }
+  
+    #event12info {
+      flex-direction: column; /* Stack items */
+     
+    }
+  
+    #eventinfo {
+      font-size: 24px; /* Reduce font size for smaller screens */
+      text-align: center;
+      margin:  0;
+    }
+  
+    .box1log {
+        display: flex;
+        flex-direction: column;
+        background-color: #92BDDA;
+        width: 81vw;
+        height: 100%;
+        border-radius: 30px;
+        border: 3px solid #FFF;
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(11.5px);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 10%;
+    }
+    
+    .right-homebox {
+        display: flex;
+        
+        background-color: #92BDDA;
+        width: 81vw;
+        height: 100%;
+        border-radius: 30px;
+        border: 3px solid #FFF;
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(11.5px);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        animation: slideInLeft 1s ease-in-out forwards;
+        text-align: center;
+        font-size: 16px;
+    }
+  
+    .btn1log, .btn2log {
+      width: 40px;
+      height: 40px;
+      font-size: 12px;
+    }
+  
+ 
+    .box1-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Align both groups horizontally */
+        gap: 0.2cqh;
+        padding-left: 1cqw;
+         /* Space between the two groups */
+    }
+    
+    .group11 {
+        display: flex;
+        flex-direction: row; /* Stack the text vertically */
+        align-items: center; /* Center-align the items */
+        gap: 2cqw;
+        
+    }
+    
+    .group12 {
+        display: flex;
+        flex-direction: row; /* Stack the text vertically */
+        align-items: center; /* Center-align the items */
+        gap: 3.3cqw;
+     
+    }
+    
+    
+    /* Converted #con to .con */
+    .con {
+        font-family: Poppins;
+        font-size: 1.36cqw;
+        font-weight: 500;
+        
+       
+        letter-spacing: -0.05cqw;
+    }
+    
+    /* Converted #cha to .cha */
+    .cha {
+        font-family: Poppins;
+        font-size: 1.36cqw;
+        font-weight: 500;
+       
+       
+        letter-spacing: -0.05cqw;
+    }
+    
+    /* Converted #contri to .contri */
+    .contri {
+        font-family: Poppins;
+        font-size: 2.84cqw;
+        font-weight: bold;
+        
+    
+        letter-spacing: -0.15cqw;
+    }
+    
+    /* Converted #chap to .chap */
+    .chap {
+        font-family: Poppins;
+        font-size: 2.84cqw;
+        font-weight: bold;
+        
+       
+        letter-spacing: -0.15cqw;
+    }
+  
+    .h1log, .h2log, .h3log {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .p1log, .p2log, .p3log {
+      font-size: 14px;
+      padding: 10px;
+      line-height: 1.5;
+    }
+  }
+  /* General Mobile Responsiveness */
+@media (max-width: 700px) {
+    /* Adjust the info gallery for smaller screens */
+    #infogallery {
+      width: 90vw; /* Use full width of the viewport */
+      margin-left: 5vw; /* Remove left margin */
+      border-radius: 15px; /* Adjust border radius */
+    }
+  
+    /* Adjust the Evegallerywrapper layout */
+    .Evegallerywrapper {
+      flex-direction: column; /* Stack items vertically */
+      justify-content: flex-start; /* Align items at the top */
+      gap: 2%; /* Reduce gap between items */
+      height: auto; /* Allow height to adjust */
+    }
+  
+    /* Adjust the carousel-innerinfo for mobile */
+    .carousel-innerinfo {
+      overflow-x: auto; /* Allow horizontal scrolling if necessary */
+      width: 100%; /* Full width */
+      height: auto; /* Allow height to adjust */
+    }
+  
+    /* Adjust the infoeve text styling for mobile */
+    #infoeve {
+      font-size: 1.4rem; /* Reduce font size for smaller screens */
+      margin-top: 5vw; /* Adjust margin to use viewport width */
+      margin-left: 4%; /* Adjust margin */
+    }
+  
+    /* Adjust info section for mobile */
+    .info-section {
+      width: 90%; /* Use 90% of the screen width */
+      margin-right: 0; /* Remove right margin */
+      flex: 1; /* Allow the section to take remaining space */
+      font-size: 1.2rem; /* Adjust font size for readability */
+      border-radius: 15px; /* Reduce border radius */
+    }
+  }
+  
+  /* Adjustments for Extra Small Screens */
+  @media (max-width: 400px) {
+    /* Further reduce sizes for very small screens */
+    #infogallery {
+      width: 90vw; /* Use even more width */
+      margin-left: 5vw; /* No margin */
+      border-radius: 10px; /* Smaller border radius */
+    }
+  
+    .Evegallerywrapper {
+      gap: 1%; /* Further reduce gap between items */
+    }
+  
+    #infoeve {
+      font-size: 1.2rem; /* Reduce font size even further */
+      margin-top: 4vw; /* Adjust top margin */
+    }
+  
+    .info-section {
+      width: 90%; 
+      margin-left: 5vw;/* Use full width */
+      font-size: 1rem; /* Reduce font size for small screens */
+      border-radius: 10px; /* Further reduce border radius */
+    }
+  }
+  @media (max-width: 576px) {
+    /* Further reduce sizes for very small screens */
+    #infogallery {
+      width: 90vw; /* Use even more width */
+      margin-left: 5vw; /* No margin */
+      border-radius: 10px; /* Smaller border radius */
+    }
+  
+    .Evegallerywrapper {
+      gap: 1%; /* Further reduce gap between items */
+    }
+  
+    #infoeve {
+      font-size: 1.2rem; /* Reduce font size even further */
+      margin-top: 4vw; /* Adjust top margin */
+    }
+  
+    .info-section {
+      width: 90%; 
+      margin-left: 5vw;/* Use full width */
+      font-size: 1rem; /* Reduce font size for small screens */
+      border-radius: 10px; /* Further reduce border radius */
+    }
+  }

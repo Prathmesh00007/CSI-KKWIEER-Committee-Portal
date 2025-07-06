@@ -1,0 +1,293 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../assets/finalbg.png');
+}
+
+.user-events-header{
+    height: 8.;
+}
+
+.user-events-page{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+
+#det:hover{
+    color: white;
+    width: 5.125rem;
+    height: 1.63rem;
+    border: 0.125rem solid black;
+    border-radius: 0;
+    font-family: poppins;
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin-left: 0.625rem;
+    margin-top: 1rem;
+    background-color: #000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#reg:hover{
+    width: 5.125rem;
+    height: 1.63rem;
+    border: 0.125rem solid black;
+    border-radius: 0;
+    color: #000;
+    font-family: poppins;
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin-left: 0.625rem;
+    background-color:#fff;
+    margin-right: 0.625rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.user-event-card:hover {
+    scale: 1.05;
+    transition: ease 0.3s;
+    box-shadow: 0rem 0.25rem 0.55rem rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+#binbtn{
+    width: 1rem;
+    height: 1rem;
+}
+
+#filterbar{
+    border-radius: 27px;
+    border: 3px solid #002D86;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(35px);
+    width: 90%;
+}
+#h1{
+    font-family: Poppins;
+    font-weight: bold;
+    margin-top: 0.95rem;
+    margin-right: 10rem;
+    margin-left: 2rem;
+    scale: 0.93;
+}
+
+.dropdown{
+    border: 0.125rem solid black;
+    width: 14.93rem;
+    height: 2.62rem;
+    font-family: poppins;
+}
+#filterbar {
+    display: flex;
+
+
+}
+
+.dropdown-container {
+    flex: 0;
+}
+
+.dropdown {
+    width: 14.9375rem;
+    height: 2.625rem;
+    padding: 0.5rem;
+    border-radius: 0.3125rem; 
+    border: 0.125rem solid #000;
+    font-size: 1rem; 
+    margin-top: 0.9rem;
+    margin-right: 1rem;
+}
+
+#titlee{
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: 0.2cqh ;
+    align-items: center;
+    margin-bottom: 0.85rem;
+    text-align: center;
+}
+
+#img{
+    width: 14.375rem;
+    height: 8.9rem;
+    border: 0.125rem solid black;
+
+}
+
+#det{
+    width: 5.125rem;
+    height: 1.63rem;
+    border: 0.125rem solid black;
+    border-radius: 0;
+    font-family: poppins;
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin-left: 0.625rem; 
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#reg{
+    width: 5.125rem;
+    height: 1.63rem;
+    border: 0.125rem solid black;
+    border-radius: 0;
+    color: white;
+    font-family: poppins;
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin-left: 0.625rem;
+    background-color: #000;
+    margin-right: 0.625rem;
+    cursor: pointer;
+}
+
+#rep{
+    width: 5.125rem;
+    height: 1.63rem;
+    border: 0.125rem solid black;
+    border-radius: 0;
+    color: white;
+    font-family: poppins;
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin-left: 0.625rem;
+    background-color: #000;
+    margin-right: 0.625rem;
+    cursor: pointer;
+}
+
+#tag{
+    font-weight: normal;
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}
+  
+.user-events-main {
+    display: flex;
+  
+    flex: 1 1;
+    height: 100vh;
+}
+
+.user-events-layout {
+    display: flex;
+    flex: 1 1;
+  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.user-events-mainpanel {
+    border-radius: 27px;
+border: 3px solid #002D86;
+background: rgba(255, 255, 255, 0.15);
+backdrop-filter: blur(35px);
+   
+    width: 90%;
+    height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.user-events-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 5 cards per row */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    gap: 5%;
+    justify-content: space-between;
+    height: 100%;
+    width: 80%;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+
+.user-event-card {
+
+    background-color: #fff;
+    border: 0.125rem solid black;
+    height: 90%;
+    /* Allow auto height for variable content */
+    display: flex;
+    flex-direction: column;
+    position: relative; /* For delete button positioning */
+    border-radius: 0.5rem;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+
+.image-slot {
+    width: 100%; /* Ensure the image takes the full width of the parent */
+    height: 8.9rem; /* Fixed height */
+    object-fit: fill; /* Maintain aspect ratio */
+    border-top-left-radius: 0.5rem; /* Apply border radius here */
+    border-top-right-radius: 0.5rem; /* Apply border radius here */
+}
+
+
+.image-slot img {
+    width: 100%;
+    height: 8.9rem;
+    border-bottom: 0.13rem solid #000;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.user-event-card-buttons {
+    display: flex;
+    justify-content: space-between; /* Distribute space between buttons */
+    margin-top: auto; /* Push buttons to the bottom of the card */
+    text-align: center;
+}
+
+
+#det, #reg{
+    width: 5.125rem;
+    height: 1.63rem;
+    cursor: pointer;
+    border: 0.125rem solid black;
+    border-radius: 0.2rem;
+}
+
+#del {
+    background-color: black;
+    width: 1.63rem; /* Same height and width to make it square */
+    height: 1.63rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    margin-left: 12rem;
+    margin-top: -1.62rem;
+}
+
+#lleft1{
+    width: auto;
+    height: 87.5%;
+}
+.lleft{
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+}

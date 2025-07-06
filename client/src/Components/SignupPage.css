@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.signupwrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+#box1signup {
+    height: 40rem; /* 640px */
+    width: 45rem; /* 720px */
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(11.5px);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 1rem;
+    border-radius: 1rem 0 0 1rem;
+    border: 3px solid #FFF;
+}
+
+#box2signup {
+    height: 40rem; /* 640px */
+    width: 45rem; /* 720px */
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(11.5px);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border-radius: 0 1rem 1rem 0;
+    padding: 2rem;
+    box-sizing: border-box;
+    border: 3px solid #FFF;
+}
+
+.input-group {
+    margin: 2rem 0 1rem;
+    font-size: 1.25rem;
+}
+
+input {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    border: 2px solid black;
+    padding: 0.5rem;
+    width: calc(100% - 2rem);
+}
+
+#btn {
+    width: calc(100% - 2rem);
+    height: 3.4375rem; /* 55px */
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem; /* 24px */
+    cursor: pointer;
+    margin: 1rem 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#btn:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    transition: 0.3s;
+}
+
+.role-selector {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+.role-selector button {
+    padding: 0.5rem 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.role-selector button.active {
+    background-color: #000; /* Active button style */
+    color: #fff;
+}
+#carouselExampleAutoplaying{
+    height: 40rem;
+    width: 45rem;
+}
+
+.sn-carousel-inner{
+       height: 40rem;
+    width: 45rem;
+}
+
+.carousel-prev {
+    left: 1rem; /* Position on the left */
+}
+
+.carousel-next {
+    right: 1rem; /* Position on the right */
+}
+
+.carousel-prev,
+.carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

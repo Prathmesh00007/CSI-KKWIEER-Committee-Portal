@@ -1,0 +1,153 @@
+/* Full page container */
+body{
+    font-family: 'Poppins';
+ 
+}
+.user-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    scale: 0.95;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../assets/finalbg.png');
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(18.350000381469727px);
+    border-radius: 25px;
+}
+
+/* Header styling */
+.user-header {
+    height: 8.3vh;
+  
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size:xx-large;
+}
+
+.user-header h1{
+    margin-left: 2%;
+}
+
+/* Horizontal Scrollbar */
+.user-horizontal-scrollbar {
+    height: 8.3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A3C6C;
+    overflow-x: auto;
+    padding: 0 1rem;
+    gap: 20cqw;
+   
+}
+
+.user-horizontal-scrollbar button {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 1rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.horizontal-scrollbar button:hover {
+    text-decoration: underline;
+  
+}
+
+.user-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-content {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Main content area */
+.user-main-panel {
+    display: flex;
+    height: calc(100vh - 16.6vh); /* Subtract header + scrollbar height */
+    flex-direction: column;
+}
+
+/* Side panel styling */
+.user-side-panel {
+    width: 13.33vw;
+ 
+    display: flex;
+    flex-direction: column;
+    
+    padding: 2rem 1rem;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout {
+   margin-top: 25vw;
+}
+
+.logout button {
+  
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10%;
+    background-color: #1A3C6C;
+}
+
+.logout button:hover {
+   
+}
+
+/* Main panel styling */
+.user-main-panel {
+    flex: 1;
+    background-color: white;
+    opacity: 0.5;
+    padding: 2rem;
+    overflow-y: auto;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.main-panel div {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#h1{
+    font-family: Poppins;
+    font-weight: bold;
+    margin-top: 0.75rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    scale: 0.93;
+}
+
+#qwe{
+    color: white;
+    font-size: 20px;
+}
+
+.qwer{
+    flex: 1;
+    opacity: 1 !important;
+    font-weight: 900;
+    font-size: xx-large;
+}

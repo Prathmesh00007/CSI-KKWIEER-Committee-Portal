@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.login-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    margin-top: 5rem;
+    width: 100%; /* Ensure it takes full width */
+}
+
+#login12 {
+    scale: 0.85;
+    margin: 0 auto; /* Center the login box */
+    display: flex; /* Use flexbox for children */
+}
+
+#p1log {
+    text-align: left;
+}
+
+.carousel-container {
+    height: 40rem; /* 640px */
+    width: 45rem; /* 720px */
+    border: 3px solid #FFF;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(11.5px);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 1rem; /* Add margin for spacing */
+    position: relative;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.form-box {
+    height: 40rem; /* 640px */
+    width: 45rem; /* 720px */
+    border: 3px solid #FFF;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(11.5px);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 1rem; /* Add margin for spacing */
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border-radius: 0 1rem 1rem 0;
+    padding: 2rem; /* Add padding to keep content inside */
+    box-sizing: border-box; /* Ensure padding doesn't affect overall width */
+}
+
+.email-input,
+.password-input {
+    margin: 2rem 0 1rem; /* Vertical margin for spacing */
+    font-size: 1.25rem; /* 20px */
+}
+
+input {
+    font-size: 1.5rem; /* 24px */
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    border: 2px solid black; /* Make border consistent */
+    padding: 0.5rem; /* Add padding for better UX */
+    width: calc(100% - 2rem); /* Responsive width */
+    margin: 0; /* Remove left margin to keep it within the box */
+}
+
+.login-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn, .signup-btn {
+     /* Make buttons full width */
+     text-align: center;
+     width: 80%;
+    height: 3.4375rem; /* 55px */
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem; /* 24px */
+    cursor: pointer;
+    margin: 1rem 0; /* Vertical margin for spacing */
+}
+
+.login-btn {
+    background-color: black;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    transition: 0.3s;
+}
+
+.signup-btn {
+    background-color: white;
+    color: black;
+}
+
+.signup-btn:hover {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    transition: 0.3s;
+}
+
+.or {
+    margin: 1rem auto; /* Center the OR text */
+    text-align: center; /* Center the text */
+    font-size: 0.9375rem; /* 15px */
+}
+
+#forgotPassword {
+    color: black;
+    margin-left: 3rem; /* Align with input */
+}
+
+#rememberMe {
+    margin: 1rem 0 0 3rem; /* Align with label */
+}
+
+.carousel-inner {
+    mix-blend-mode: normal;
+}
+
+.carousel-prev,
+.carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-prev {
+    left: 1rem; /* Position on the left */
+}
+
+.carousel-next {
+    right: 1rem; /* Position on the right */
+}
+
+.carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ln-carousel-inner{
+    height: 40rem;
+ width: 45rem;
+}
+
+  
+

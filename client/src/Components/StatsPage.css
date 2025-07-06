@@ -1,0 +1,120 @@
+/* Wrapper for the entire Stats Page */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Darker text color for visibility */
+}
+
+/* Style for the registered users section */
+.registered-users {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Light background */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.registered-users h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #2c3e50; /* Dark blue for headers */
+}
+
+.stats-card {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;
+    background-color: #fff; /* White background for cards */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+.stats-card h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #34495e; /* Darker text for user names */
+}
+
+.stats-card p {
+    margin: 5px 0;
+    color: #666; /* Gray color for other info */
+}
+
+/* Buttons for filtering events */
+.stats-event-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.stats-event-buttons button {
+    background-color: "#A4D4EB"; /* Bootstrap primary color */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.stats-event-buttons button.clicked {
+    background-color: #0056b3; /* Darker shade when clicked */
+}
+
+.stats-event-buttons button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Container for event cards */
+.stats-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Style for individual event cards */
+.stats-event-card {
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 250px; /* Fixed width for cards */
+    background-color: #fff; /* White background */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    text-align: center;
+}
+
+.stats-event-card h2 {
+    font-size: 18px;
+    color: #2c3e50; /* Darker color for titles */
+    margin-bottom: 10px;
+}
+
+.stats-event-card h3 {
+    font-size: 16px;
+    color: #666; /* Gray color for date */
+    margin-bottom: 10px;
+}
+
+.stats-event-card p {
+    color: #666; /* Gray color for participants text */
+    margin-bottom: 15px;
+}
+
+/* Button for seeing registrations */
+.stats-event-card button {
+    background-color: black; /* Bootstrap success color */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.stats-event-card button:hover {
+    background-color: blue; /* Darker shade on hover */
+}

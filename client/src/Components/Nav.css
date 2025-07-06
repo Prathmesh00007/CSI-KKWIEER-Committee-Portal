@@ -1,0 +1,109 @@
+#navlog {
+  display: flex;
+  height: 10.8vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 1000;
+  justify-content: space-between;
+}
+
+#img1log {
+  width: 5cqw;  /* Set the desired width */
+  height: 2.5cqw; 
+  margin-top: 1.1cqw;
+  margin-left: 1cqw; /* Maintain aspect ratio */
+}
+
+.nav1,.nav2,.nav3{
+  display: flex;
+}
+
+.nav2{
+  flex: 1;
+  
+}
+
+.btnlo {
+  margin-top: 1.1cqw;
+  margin-right: 2cqw;
+  width: 7.25cqw;
+  height: 2.5cqw;
+  text-align: center;
+  border-radius: 52px; /* Keep the border radius */
+  opacity: 0.8;
+  background: #FFF;
+}
+
+#ullog {
+  line-height: 90%;
+  display: flex;
+  flex: 1;
+  gap: 2cqw;
+  justify-content: center;
+  list-style-type: none;
+  font-size: 1.4cqw;
+  font-weight: 500;
+  color: #000;
+  font-family: 'Poppins';
+  margin-top: 1.1cqw;
+  display: flex;
+  padding: 0;
+  width: 61cqw;
+  width: 7.25cqw;
+  height: 2.5cqw;
+}
+
+ul li {
+  list-style-type: none; /* Remove bullet points */
+  display: flex;
+  align-items: center; /* Change to inline-block for better control over width and height */
+  /* Spacing between items */
+  font-family: 'Poppins'; /* Font style */
+  border-radius: 52px; /* Keep a larger border radius */
+  opacity: 0.5;
+  background: #FFF; /* White background */
+/* Padding for shape */
+  transition: background 0.3s, opacity 0.3s; /* Smooth transitions */
+}
+
+ul li:hover {
+  opacity: 1; /* Fully opaque on hover */
+  background: #f0f0f0; /* Change background color on hover */
+}
+
+ul li a {
+  text-decoration: none; /* No underline */
+  color: black; /* Text color */
+  padding: 0.5cqw 1cqw; /* Padding for better shape */
+  display: block; /* Make the anchor tag fill the list item */
+  border-radius: 52px; /* Same border radius for the anchor */
+  height: 100%; /* Full height to fill the li */
+  width: 100%; /* Full width to fill the li */
+  box-sizing: border-box; /* Ensure padding is included in total width and height */
+  opacity: 1;
+}
+
+#loginlog {
+  
+  font-family: poppins;
+  font-size: 1.4cqw;
+}
+
+#loginlog:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+
+#signuplog {
+  background-color: #fff;
+  color: #000;
+  font-family: poppins;
+  font-size: 1.4cqw;
+}
+
+#signuplog:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.3s;
+}

@@ -1,0 +1,190 @@
+/* Wrapper for the entire Stats Page */
+.page-container {
+    padding: 20px;
+    background-color: #f4f4f4; 
+    height: 100vh;/* Light gray background */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header styling */
+.eventheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #92BDDA;
+ 
+
+    border: 0.125rem black solid;/* White background for the header */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+/* Button to add events */
+
+
+
+/* Main section styling */
+.admin-events-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    flex:1 1;
+}
+
+/* Scrollable container for event buttons */
+.admin-events-scrollbar {
+    display: flex;
+    align-items: center;
+    overflow: hidden; /* Hide overflow to keep the design tidy */
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+.event-buttons {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 0 10px;
+}
+
+.event-buttons button {
+    background-color: transparent; /* Transparent background */
+    border: 1px solid #007bff; /* Border color */
+    color: #007bff; /* Text color */
+    margin: 0 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.event-buttons button.clicked {
+    background-color: #007bff; /* Highlight clicked button */
+    color: #fff; /* White text on clicked button */
+}
+
+.event-buttons button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    color: #fff; /* White text on hover */
+}
+
+/* Layout for events */
+.admin-events-layout {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Side panel for filters */
+.admin-events-mainpanel {
+    background-color: #C2DFFD;
+    flex: 1 1;
+ 
+    height: 90%;
+    border: 0.125rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.admin-events-card-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 cards per row */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    gap: 5%;
+    justify-content: space-between;
+    height: 100%;
+    width: 80%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.admin-event-card {
+    background-color: #fff;
+    border: 0.125rem solid black;
+    width: 100%;
+    height: 90%;
+    /* Allow auto height for variable content */
+    display: flex;
+    flex-direction: column;
+    position: relative; /* For delete button positioning */
+    border-radius: 0.5rem;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.admin-event-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0rem 0.25rem 0.55rem rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+}
+
+.event-cover {
+    width: 100%; /* Full width for the image */
+    height: 8.9rem; /* Fixed height for the image */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-top-left-radius: 0.5rem; /* Rounded corners on top */
+    border-top-right-radius: 0.5rem; /* Rounded corners on top */
+}
+
+.event-type, .event-title {
+    margin: 0.5rem; /* Margin for titles */
+    text-align: center; /* Center align text */
+}
+
+.admin-event-card-buttons {
+    display: flex;
+    justify-content: space-between; /* Space buttons evenly */
+    margin-top: auto; /* Push buttons to the bottom */
+    padding: 0.5rem; /* Padding around buttons */
+}
+
+.action-btn {
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 0.3rem; /* Rounded corners for buttons */
+    padding: 0.5rem 1rem; /* Padding for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Animation for hover effect */
+}
+
+.admin-event-card-buttons {
+    display: flex;                /* Use flexbox to align buttons */
+    align-items: center;         /* Center align buttons vertically */
+}
+
+
+#end,
+#add {
+    width: 5.5rem;
+    height: 1.63rem;
+    border: 0.125rem solid black;
+    border-radius: 0;
+    color: white;
+    font-family: poppins;
+    font-weight: normal;
+    font-size: 0.7rem;
+    margin: 0 0.625rem;         /* Set horizontal margin */
+    background-color: #000;
+    cursor: pointer;
+}
+
+#del,
+#rep {
+    width: 5.5rem;
+    height: 1.63rem;
+    border: 0.125rem solid black;
+    border-radius: 0;
+    color: black;
+    font-family: poppins;
+    font-weight: normal;
+    font-size: 0.7rem;
+    margin: 0 0.625rem;         /* Set horizontal margin */
+    background-color: white;
+    cursor: pointer;
+}
